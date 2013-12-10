@@ -640,7 +640,11 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "HelloSencha.view.Main": []
+  "HelloSencha.controller.MainController": [],
+  "HelloSencha.model.Station": [],
+  "HelloSencha.store.StationsStore": [],
+  "HelloSencha.view.Main": [],
+  "HelloSencha.view.SimpleList": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1359,7 +1363,13 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "HelloSencha.controller.MainController": [],
+  "HelloSencha.model.Station": [],
+  "HelloSencha.store.StationsStore": [],
   "HelloSencha.view.Main": [
     "widget.main"
+  ],
+  "HelloSencha.view.SimpleList": [
+    "widget.simplelist"
   ]
 });
